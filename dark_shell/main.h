@@ -31,6 +31,4 @@ void handle_exit(char *cmd);
 void runcmd(char **rgv, char **arv, char **envp);
 char *trim(char *cmd);
 extern char **environ;
-
 #endif
-
